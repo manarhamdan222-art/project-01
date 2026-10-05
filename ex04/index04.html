@@ -6,49 +6,41 @@
     <title>User Registration</title>
 </head>
 <body>
-    <h1>Register</h1>
     <form action="#" method="post">
-        <div>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required minlength="3">
-        </div>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3">
+        <br>
 
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
 
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required minlength="8">
-        </div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+        <br>
 
-        <div>
-            <p>Gender:</p>
-            <input type="radio" id="male" name="gender" value="male" required>
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-        </div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
 
-        <div>
-            <label for="role">Primary Track:</label>
-            <select id="role" name="role" required>
-                <option value="">Select a track</option>
-                <option value="frontend">Frontend</option>
-                <option value="backend">Backend</option>
-            </select>
-        </div>
+        <label for="role">Primary Track:</label>
+        <select id="role" name="role" required>
+            <option value="">Select a track</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+        </select>
+        <br>
 
-        <div>
-            <label for="bio">Short Bio:</label>
-            <textarea id="bio" name="bio" rows="4" cols="30"></textarea>
-        </div>
+        <label for="bio">Short Bio:</label>
+        <textarea id="bio" name="bio" rows="4" cols="30"></textarea>
+        <br>
 
-        <div>
-            <input type="checkbox" id="terms" name="terms" required>
-            <label for="terms">I agree to the terms and conditions</label>
-        </div>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+        <br>
 
         <button type="submit">Submit</button>
     </form>
